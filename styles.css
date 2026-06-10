@@ -70,6 +70,12 @@ body {
   font-style: italic;
   color: var(--ink-soft);
   font-size: 0.98rem;
+  line-height: 1.45;
+  text-align: right;
+}
+
+@media (max-width: 620px) {
+  .masthead .affiliation { text-align: left; }
 }
 
 /* ---------- navigation ------------------------------------------------ */

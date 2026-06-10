@@ -7,21 +7,19 @@ step, no dependencies. Edit the `.html` files directly and push to update.
 
 | File | Purpose |
 |---|---|
-| `index.html` | About: bio, news, selected publications |
-| `publications.html` | Full publication list |
-| `working-papers.html` | Working papers |
+| `index.html` | About: bio, news, contact, CV link |
+| `research.html` | Publications and working papers |
 | `teaching.html` | Teaching by institution |
 | `awards.html` | Awards and grants |
 | `styles.css` | Single shared stylesheet |
 | `assets/Ruishen_Zhang_CV.pdf` | CV (replace this file to update the CV link) |
+| `assets/portrait.jpg` | Homepage photo (600px wide; replace to update) |
 | `CNAME` | Custom domain for GitHub Pages — do not delete |
 
 ## Routine updates
 
 - **New CV:** overwrite `assets/Ruishen_Zhang_CV.pdf`, keep the same filename.
-- **Photo:** drop a portrait into `assets/portrait.jpg`, then in `index.html`
-  replace `<div class="monogram">RZ</div>` with
-  `<img src="assets/portrait.jpg" alt="Ruishen Zhang">`.
+- **Photo:** replace `assets/portrait.jpg` (a ~600px-wide JPEG keeps the page fast).
 - **New paper / award:** copy an existing `.entry` or `<dt>/<dd>` block and edit.
 - **Footer date:** update "Last updated" in each page footer (it appears once per page).
 
