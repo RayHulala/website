@@ -7,7 +7,8 @@ step, no dependencies. Edit the `.html` files directly and push to update.
 
 | File | Purpose |
 |---|---|
-| `index.html` | About: bio, news, contact, CV link |
+| `index.html` | Landing: short research summary, photo, contact, news |
+| `about.html` | Full biography, education, contact, CV link |
 | `research.html` | Publications and working papers |
 | `teaching.html` | Teaching by institution |
 | `awards.html` | Awards and grants |
