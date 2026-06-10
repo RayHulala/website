@@ -31,7 +31,7 @@ step, no dependencies. Edit the `.html` files directly and push to update.
    ```sh
    git init && git add -A && git commit -m "Personal website"
    git branch -M main
-   git remote add origin git@github.com:<USERNAME>/website.git
+   git remote add origin git@github.com:RayHulala/website.git
    git push -u origin main
    ```
 
@@ -51,7 +51,7 @@ Add these records for `ruishenzhang.com`:
 | A | `@` | `185.199.109.153` |
 | A | `@` | `185.199.110.153` |
 | A | `@` | `185.199.111.153` |
-| CNAME | `www` | `<USERNAME>.github.io.` |
+| CNAME | `www` | `RayHulala.github.io.` |
 
 DNS can take up to a few hours to propagate; GitHub then issues the HTTPS
 certificate automatically.
